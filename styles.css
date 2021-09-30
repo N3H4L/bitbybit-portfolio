@@ -67,6 +67,33 @@ body {
     margin-bottom: 20px;
 }
 
+#experience {
+    background-color: #111111;
+}
+
+.ctf-badge {
+    margin-top: 10px;
+}
+
+.gpcssi {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#skills, #langs {
+    background-color: #111111;
+}
+
+.skillset {
+    background-color: #303030;
+}
+
+.awards-item {
+    margin-top: 10px;
+}
+
 footer {
     padding: 5px;
     text-align: center;
