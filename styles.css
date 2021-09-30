@@ -82,6 +82,20 @@ body {
     margin-bottom: 20px;
 }
 
+.cyversity-logo {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fsec-logo {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #skills, #langs {
     background-color: #111111;
 }
