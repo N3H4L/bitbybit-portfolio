@@ -1,0 +1,108 @@
+body {
+    background-color: #303030;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 120%;
+}
+
+.logo-text {
+    color: #DC3545;
+}
+
+.intro {
+    margin: 0;
+    background-image: url("img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#myname {
+    font-size: 550%;
+}
+
+.heading-title {
+    color: #ff1a1a;
+}
+
+.heading {
+    color: #a6d60d;
+}
+
+.prompt {
+    color: white;
+}
+
+.sections {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ejpt-cert {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+@media (max-width: 640px) {
+    .intro {
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .intro-image {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .center {
+        height: auto;
+        justify-content: center;
+    }
+
+    #myname {
+        font-size: 200%
+    }
+
+    .intro-text {
+        margin-top: 30px;
+    }
+
+    .sections {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ejpt-cert {
+        width: 300px;
+    }
+}
